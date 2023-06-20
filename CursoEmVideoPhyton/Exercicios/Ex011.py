@@ -6,4 +6,5 @@ altura = float(input('Digite a altura da parede em metros: '))
 area = largura * altura
 qtdTinta = area / 2
 
-print('A área da parede é de {}m² e a quantidade de tinta necessária para pintá-la é de {}l'.format(area, qtdTinta))
+print(
+    'A área da parede é de {:.4f}m² e a quantidade de tinta necessária para pintá-la é de {:.4f}l'.format(area, qtdTinta))
