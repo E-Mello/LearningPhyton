@@ -18,3 +18,9 @@ if __name__ == "__main__":
     # Replace with the path to your MP3 file
     mp3_file = "your_song.mp3"
     play_audio(mp3_file)
+
+
+# pygame.init()
+# pygame.mixer.music.load('your_song.mp3')
+# pygame.mixer.music.play()
+# pygame.event.wait()
