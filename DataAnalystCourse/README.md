@@ -81,3 +81,51 @@
     Linear algebra plays a crucial role in many scientific and data-related computations. Understanding concepts like vectors, matrices, matrix operations, eigenvalues, and eigenvectors is important for solving systems of linear equations, performing matrix manipulations, and implementing machine learning algorithms.
 
   - By combining Python with these mathematical concepts and libraries, you can perform a wide range of mathematical computations, data analysis, scientific simulations, and machine learning tasks efficiently and effectively.
+
+- Numpy
+
+  - What?
+    - NumPy is a Python library used for working with arrays.
+    - It also has functions for working in domain of linear algebra, fourier transform, and matrices.
+    - NumPy was created in 2005 by Travis Oliphant. It is an open source project and you can use it freely.
+  - Why?
+    - In Python we have lists that serve the purpose of arrays, but they are slow to process.
+    - NumPy aims to provide an array object that is up to 50x faster than traditional Python lists.
+    - The array object in NumPy is called ndarray, it provides a lot of supporting functions that make working with ndarray very easy.
+    - Arrays are very frequently used in data science, where speed and resources are very important.
+  - When?
+    - NumPy is the fundamental package for scientific computing in Python.
+    - It is a Python library that provides a multidimensional array object, various derived objects (such as masked arrays and matrices), and an assortment of routines for fast operations on arrays, including mathematical, logical, shape manipulation, sorting, selecting, I/O, discrete Fourier transforms, basic linear algebra, basic statistical operations, random simulation and much more.
+  - How?
+    - NumPy is a Python library and is written partially in Python, but most of the parts that require fast computation are written in C or C++.
+    - To work with NumPy, you need to install it using pip install numpy.
+    - You can import the numpy module by typing: import numpy
+    - Now NumPy is imported and ready to use.
+
+- Pandas
+  - What?
+    - Pandas is a Python library used for working with data sets.
+    - It has functions for analyzing, cleaning, exploring, and manipulating data.
+    - The name "Pandas" has a reference to both "Panel Data", and "Python Data Analysis" and was created by Wes McKinney in 2008.
+  - Why?
+    - Pandas allows us to analyze big data and make conclusions based on statistical theories.
+    - Pandas can clean messy data sets, and make them readable and relevant.
+    - Relevant data is very important in data science.
+  - When?
+    - Pandas is used when data is imported from an external source, such as CSV file, SQL file, Excel file, etc.
+    - Pandas allow you to analyze big data and make conclusions based on statistical theories.
+  - How?
+    - Pandas is usually imported under the pd alias.
+    - alias: In Python alias are an alternate name for referring to the same thing.
+    - Import Pandas: import pandas as pd
+    - Now the Pandas package can be referred to as pd instead of pandas.
+    - To use Pandas, you'll typically start with the following line of code.
+    - import pandas as pd
+    - Now the Pandas package can be referred to as pd instead of pandas.
+    - Pandas is usually used for working with tabular data (similar to the data stored in a spreadsheet).
+    - Pandas allow importing data of various file formats such as csv, excel etc. Pandas allows various data manipulation operations such as merging, reshaping, selecting, as well as data cleaning, and data wrangling features.
+    - Pandas allow fast analysis and data cleaning and preparation.
+    - It has built-in visualization features.
+    - To install Pandas type the following command in your terminal.
+    - pip install pandas
+    - Now you have successfully installed pandas in your system.
